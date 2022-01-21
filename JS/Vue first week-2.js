@@ -88,7 +88,7 @@ const App = {
         getProduct(){
             //console.log(location.pathname)
             //判斷目前頁面是否為"/Vue first week-3.html"可以先用console.log(location.pathname)確認
-            if(location.pathname==='/Vue%20first%20week-2.html'){
+            if(location.pathname==='/Vue-second-week/Vue%20first%20week-2.html'){
                 //取得所存在cookie的token
                 const myToken = document.cookie.replace(/(?:(?:^|.*;\s*)myHextoken\s*\=\s*([^;]*).*$)|^.*$/, "$1");
                 axios.defaults.headers.common['Authorization'] = myToken;
