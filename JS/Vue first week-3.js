@@ -79,7 +79,7 @@ const App = {
                     //把token存到cookie
                     document.cookie =`myHextoken=${res.data.token}; expires=${new Date(res.data.expired)}`;
                     //轉跳頁面到產品資料頁
-                    location.href="./Vue first week-3.html"
+                    location.href="./Vue first week-2.html"
                 }).catch((err) => {
                     console.log(err.response)
                 })
